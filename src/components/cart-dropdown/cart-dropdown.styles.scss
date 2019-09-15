@@ -16,9 +16,11 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    overflow-x: hidden;
   }
 
   button {
     margin-top: auto;
+    outline: none;
   }
 }
