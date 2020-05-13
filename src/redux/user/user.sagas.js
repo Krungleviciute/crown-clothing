@@ -103,7 +103,7 @@ export function* onSignUpStart() {
 }
 
 export function* onSignUpSuccess() {
-  yield takeLates(UserActionTypes.SIGN_UP_SUCCESS, signInAfterSignUp);
+  yield takeLatest(UserActionTypes.SIGN_UP_SUCCESS, signInAfterSignUp);
 }
 
 export function* userSagas() {
