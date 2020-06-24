@@ -24,3 +24,5 @@ export const CollectionItemsContainer = styled.div`
     align-self: center;
   }
 `;
+
+CollectionItemsContainer.displayName = "CollectionItemsContainer";
